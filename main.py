@@ -64,7 +64,7 @@ def main():
         if pais == "CHILE":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
             with col2:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera chile.jpg")
+                imagen = Image.open(r"https://github.com/MichelVillot/API_Streamlit/blob/689d96502bd01217f35db855e8dd7e67b6d16180/bandera%20chile.jpg")
                 st.image(imagen, "Bandera de Chile", width=560)
                 #if anio != "":
                  #   with col1:
