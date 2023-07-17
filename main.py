@@ -1,4 +1,5 @@
 # Importar las bibliotecas necesarias
+import uvicorn
 import os
 import streamlit as st
 from google.cloud import bigquery
@@ -32,7 +33,7 @@ from streamlit_folium import folium_static
 import math
 import os
 
-
+app = st()
 
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\project-sismos-1a1e2a643257.json"
 
