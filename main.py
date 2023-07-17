@@ -5,7 +5,7 @@ import streamlit as st
 from google.cloud import bigquery
 import pandas as pd
 import matplotlib.pyplot as plt
-import db_dtypes
+#import db_dtypes
 from PIL import Image
 import time
 import streamlit_extras
@@ -13,11 +13,11 @@ import streamlit_extras
 #from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_option_menu import option_menu
 from streamlit import *
-import plost
-import plotly.express as px
-import seaborn as sns
+#import plost
+#import plotly.express as px
+#import seaborn as sns
 import pydeck as pdk
-import numpy as np
+#import numpy as np
 ##### Librerias Francisco - Modelo
 import streamlit as st
 from google.cloud import bigquery
@@ -32,8 +32,6 @@ import folium
 from streamlit_folium import folium_static
 import math
 import os
-
-app = streamlit()
 
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\project-sismos-1a1e2a643257.json"
 
