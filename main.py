@@ -64,34 +64,30 @@ def main():
         if pais == "CHILE":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
             with col2:
-                #imagen = Image.open("https://github.com/MichelVillot/API_Streamlit/blob/689d96502bd01217f35db855e8dd7e67b6d16180/bandera%20chile.jpg")
                 imagen2 = Image.open("bandera chile.jpg")
-                #st.image(imagen, "Bandera de imagen", width=560)
-                st.image(imagen2, "Bandera de imagen2", width=560)
-                #builtins.open(imagen, "rb")
-                builtins.open(imagen2, "rb")
-                #if anio != "":
-                 #   with col1:
-                  #      with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
-                   #         time.sleep(3)
+                st.image(imagen2, "Bandera de Chile", width=560)
+                if anio != "":
+                    with col1:
+                        with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
+                            time.sleep(3)
         elif pais == "JAPON":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
-            #with col2:
-                #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera japon.jpg")
-                #st.image(imagen, "Bandera de Japon", width=560)
-                #if anio != "":
-                 #   with col1:
-                  #      with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
-                   #         time.sleep(3)
+            with col2:
+                imagen = Image.open("bandera japon.jpg")
+                st.image(imagen, "Bandera de Japon", width=560)
+                if anio != "":
+                    with col1:
+                        with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
+                            time.sleep(3)
         elif pais == "USA":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2018,2019,2020,2021,2022,2023], index=0)
-            #with col2:
-             #   imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera usa.jpg")
-              #  st.image(imagen, "Bandera de Estados Unidos", width=560)
-               # if anio != "":
-                #    with col1:
-                 #       with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
-                  #          time.sleep(3)
+            with col2:
+                imagen = Image.open("bandera usa.jpg")
+                st.image(imagen, "Bandera de Estados Unidos", width=560)
+                if anio != "":
+                    with col1:
+                        with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
+                            time.sleep(3)
 
     #Activadores
     mostrar_button = False
@@ -617,7 +613,7 @@ if selected == "Nosotros":
 
 if selected == "Historia":
     container = st.container()
-    #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\sismo.jpg")
+    imagen = Image.open("sismo.jpg")
     col1, col2= st.columns(2)
     with col1:
         st.subheader("`¿Que es un sismo?`")
