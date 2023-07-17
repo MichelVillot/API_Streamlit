@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "project-sismos",
+  "private_key_id": "2a770c4ff8899a03beb4a02459e3cf86638927f2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCMdfx6vLctk/O7\nOBRegyMYY2yBfOTwyJpnQAQHYuB+nCsNkdirtxFhugNAIxaGHOMk3259TV88Wdch\n5dMrNMPjCd1lm37p9JFHarnkE3AMe1sbm5rvaKQY+c7JrtxDd8iM7ki84KHWVx6x\n3bs1llYBrOKnuflo2eInZJe1cy4zHECt2ZsT7Saindrd2oVfaMUiGHi2Q1eqljsZ\nqepsgHdUIm899MRM2j4x4JOrMxJ7GTuD2JkTWVyWenYZEQQkNRvS2m2AbejcTh6n\nXagUQr8PKvjbTy37tbG4c8uXskZRSz4vZyUaQLdm21IajrByh6JoC2cCF5DKFY7Z\nL9t7s91jAgMBAAECggEAIPHVh8Y2orKWkr17DZXth91eCFsOaalribcams7mv9uK\nP5MLQm9cXNMfyw3PzSH+ZtofFLWulj2uN22r43DrVxervZbEpEQwRRNzyVqDx/Gw\n819Cbk/ZWWBST7y7Pfnc6K1FE0QOwXLKqMZMkCuUPa1atiNpK94a7MlryevblLH9\nQ56FZJCLxlpdQIX1SUIFM+I8MJB1jb8Y7QY2k2BgAubYSPEAE4wPSg42EFQqE3kX\n3rn8WPww1lZbyjRJUAttttDQdnoZ8asGw2VZjO6vicii2mNb2wdYUEm4pYXyn1G5\nAQiTHylu16xnr3eRSKxPilNMmvZiKU+HkuvNZtPNDQKBgQDBKqli433arF9L6aXq\nwdTEcDVXosGyevg0VawaEs6WMWdc5aa6bYhWekoZtnX2pN2WhZXKLxBdFBuCypi/\nzJKH4mpJkzhzPecuPX2EyozHHHhOc9mUYb5LhaHTDh36EvqCeveZOQK0kJ4wPVJ4\nmrQ+0C3++yvbZVdUw9im6o9EzQKBgQC6JmtzL22eCRP0ib+T/e0HRDytd1IlQNw1\n2FDKr7szBy/l0tES0JqLjyjjyNFafvhyitVH1cMVqs3U+movgJ312n7kLYSX2vUP\nESG7Ng4PuPAxOlCMdpCHY1u4A9YQFYG/3TZUDREcfarrSl/SFPhVM6SAB5qPFeyE\n5zXogU0q7wKBgAZPe3skjW8AZJiZSHdT37yPId78DTHkfIlRJy8u4BreAE9znS/H\n9kVE93jBkjb9idOqB4u0X+d6ia+LKNRTPZI83lYK/jQdmJjVH22gJFs43eFKPZhw\nXQQgmHnJo0cRKafrln0l9KWrd8+BoVkZTLwkluwWjoc7V1AImeJSFV4dAoGAcakj\n0qES/Xvtg1LYdzSElftEUWaZ8cU4sGf0bM4AL5gj1uByaFqXAr/W576mlesRKF88\n+y+6fnBcXb7JN1gBGyzebdSdMVuwZhK/1d+bll4FywkgRaPfe8tfJWyyN//pyYz4\nrzmLSSoyQpiXCV9kgiGWP9ZkuRlZ4YyLjfvlcmECgYBMbNqF5DFxLAdqn53eq1BU\not5hIOi94Hf93doxWWciN3/qOktiIBikSJgzLc59+SD7I5bw33X4LKCONsA7PwFY\nhSEyZUhvIESHWy0bwGrYSlbpBoASjZdzou2j75WBgdVZSKckTX+c80fR83a/H4Ja\nrEFCijE2kEf0tKqOrENNAQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "credenciales@project-sismos.iam.gserviceaccount.com",
+  "client_id": "105347898158241064275",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/credenciales%40project-sismos.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
