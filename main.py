@@ -8,8 +8,8 @@ import db_dtypes
 from PIL import Image
 import time
 import streamlit_extras
-from streamlit_extras.switch_page_button import switch_page
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.switch_page_button import switch_page
+#from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_option_menu import option_menu
 from streamlit import *
 import plost
