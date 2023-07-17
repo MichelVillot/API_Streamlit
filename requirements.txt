@@ -44,7 +44,3 @@ streamlit-option-menu
 streamlit-toggle-switch
 streamlit-vertical-slider
 style
-
-ydata-profiling==4.2.0
-zipp==3.16.0
-zope.interface==6.0
