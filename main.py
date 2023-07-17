@@ -893,5 +893,3 @@ if selected == "Comunidad":
 if selected =="Modelos":
     main2()
 
-main()
-
