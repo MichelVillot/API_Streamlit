@@ -32,7 +32,7 @@ seaborn
 statsmodels
 streamlit
 streamlit-camera-input-live
-streamlit-card
+#streamlit-card
 streamlit-elements
 streamlit-embedcode
 streamlit-extras
