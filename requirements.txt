@@ -35,7 +35,7 @@ streamlit-camera-input-live
 #streamlit-card
 streamlit-elements
 streamlit-embedcode
-streamlit-extras
+streamlit-extras.switch_page_button
 streamlit-faker
 streamlit-folium
 streamlit-image-coordinates
