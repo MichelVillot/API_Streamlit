@@ -63,27 +63,27 @@ def main():
     with col1:
         if pais == "CHILE":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
-            with col2:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera chile.jpg")
-                st.image(imagen, "Bandera de Chile", width=560)
+            #with col2:
+                #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera chile.jpg")
+                #st.image(imagen, "Bandera de Chile", width=560)
                 if anio != "":
                     with col1:
                         with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
                             time.sleep(3)
         elif pais == "JAPON":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
-            with col2:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera japon.jpg")
-                st.image(imagen, "Bandera de Japon", width=560)
+            #with col2:
+                #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera japon.jpg")
+                #st.image(imagen, "Bandera de Japon", width=560)
                 if anio != "":
                     with col1:
                         with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
                             time.sleep(3)
         elif pais == "USA":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2018,2019,2020,2021,2022,2023], index=0)
-            with col2:
-                imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera usa.jpg")
-                st.image(imagen, "Bandera de Estados Unidos", width=560)
+            #with col2:
+             #   imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera usa.jpg")
+              #  st.image(imagen, "Bandera de Estados Unidos", width=560)
                 if anio != "":
                     with col1:
                         with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
@@ -192,7 +192,7 @@ def main():
                         col4.metric("`LUGAR MAS SISMOLOGICO`", lugar_mas_sismos.index[4], help=f"Esta metrica nos muestra el lugar mas sismologico para el año {anio}")
                         col5.metric("`SISMOS EN EPICENTRO`", lugar_mas_sismos[4], help=f"Esta metrica nos muestra la cantidad de sismos que ocurrieron en {lugar_mas_sismos.index[4]} para el año {anio}")
                         col6.metric("`PORCENTAJE`",f"{lugar_mas_sismos[4]/q_sismos:.2%}", help=f"Esta metrica nos muestra el porcentaje que representa la cantidad de sismos ocurridos en {lugar_mas_sismos.index[4]} en comparacio con el total" )
-                        style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
+                        #style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
                         st.markdown(" ### Graficos")
                         col7, col8 = st.columns(2)
                         with col7:
@@ -314,7 +314,7 @@ def main():
                         col4.metric("`LUGAR MAS SISMOLOGICO`", lugar_mas_sismos.index[4], help=f"Esta metrica nos muestra el lugar mas sismologico para el año {anio}")
                         col5.metric("`SISMOS EN EPICENTRO`", lugar_mas_sismos[4], help=f"Esta metrica nos muestra la cantidad de sismos que ocurrieron en {lugar_mas_sismos.index[4]} para el año {anio}")
                         col6.metric("`PORCENTAJE`",f"{lugar_mas_sismos[4]/q_sismos:.2%}", help=f"Esta metrica nos muestra el porcentaje que representa la cantidad de sismos ocurridos en {lugar_mas_sismos.index[4]} en comparacio con el total" )
-                        style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
+                        #style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
 
                         #Empezamos a graficar.
                         st.markdown("# Graficos")
@@ -452,7 +452,7 @@ def main():
                         col4.metric("`LUGAR MAS SISMOLOGICO`", lugar_mas_sismos.index[4], help=f"Esta metrica nos muestra el lugar mas sismologico para el año {anio}")
                         col5.metric("`SISMOS EN EPICENTRO`", lugar_mas_sismos[4], help=f"Esta metrica nos muestra la cantidad de sismos que ocurrieron en {lugar_mas_sismos.index[4]} para el año {anio}")
                         col6.metric("`PORCENTAJE`",f"{lugar_mas_sismos[4]/q_sismos:.2%}", help=f"Esta metrica nos muestra el porcentaje que representa la cantidad de sismos ocurridos en {lugar_mas_sismos.index[4]} en comparacio con el total" )
-                        style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
+                        #style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
                         st.markdown("# Graficos")
                         col7, col8 = st.columns(2)
                         with col7:
@@ -613,7 +613,7 @@ if selected == "Nosotros":
 
 if selected == "Historia":
     container = st.container()
-    imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\sismo.jpg")
+    #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\Streamlit\sismo.jpg")
     col1, col2= st.columns(2)
     with col1:
         st.subheader("`¿Que es un sismo?`")
