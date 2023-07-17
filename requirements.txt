@@ -44,3 +44,5 @@ streamlit-option-menu
 streamlit-toggle-switch
 streamlit-vertical-slider
 style
+uvicorn
+fastapi
