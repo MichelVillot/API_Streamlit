@@ -871,7 +871,7 @@ def opcion2():
             latitud = float(latitud)
             longitud = float(longitud)
             distancia_km = float(distancia_km)
-            main(latitud, longitud, distancia_km)
+            main_1(latitud, longitud, distancia_km)
         except (ValueError, UnboundLocalError):
             st.write("Los parámetros ingresados son incorrectos o el área es demasiado chica.")
 
