@@ -66,28 +66,28 @@ def main():
             #with col2:
                 #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera chile.jpg")
                 #st.image(imagen, "Bandera de Chile", width=560)
-                if anio != "":
-                    with col1:
-                        with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
-                            time.sleep(3)
+                #if anio != "":
+                 #   with col1:
+                  #      with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
+                   #         time.sleep(3)
         elif pais == "JAPON":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023],index=0)
             #with col2:
                 #imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera japon.jpg")
                 #st.image(imagen, "Bandera de Japon", width=560)
-                if anio != "":
-                    with col1:
-                        with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
-                            time.sleep(3)
+                #if anio != "":
+                 #   with col1:
+                  #      with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
+                   #         time.sleep(3)
         elif pais == "USA":
             anio = st.selectbox("Selecciona el año a consultar", options=["",2018,2019,2020,2021,2022,2023], index=0)
             #with col2:
              #   imagen = Image.open(r"C:\Users\miche\OneDrive\Escritorio\KNN\prueba_bigquery\bandera usa.jpg")
               #  st.image(imagen, "Bandera de Estados Unidos", width=560)
-                if anio != "":
-                    with col1:
-                        with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
-                            time.sleep(3)
+               # if anio != "":
+                #    with col1:
+                 #       with st.spinner(f"Recolectando informacion de {pais} para el año {anio}..."):
+                  #          time.sleep(3)
 
     #Activadores
     mostrar_button = False
