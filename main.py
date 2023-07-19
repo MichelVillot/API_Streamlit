@@ -9,15 +9,15 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import time
 import streamlit_extras
-#from streamlit_extras.switch_page_button import switch_page
-#from streamlit_extras.metric_cards import style_metric_cards
+from streamlit_extras.switch_page_button import switch_page
+from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_option_menu import option_menu
 from streamlit import *
 #import plost
 #import plotly.express as px
 #import seaborn as sns
 import pydeck as pdk
-#import numpy as np
+import numpy as np
 ##### Librerias Francisco - Modelo
 import streamlit as st
 from google.cloud import bigquery
