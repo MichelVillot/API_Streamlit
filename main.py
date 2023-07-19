@@ -192,7 +192,7 @@ def main():
                         col4.metric("`LUGAR MAS SISMOLOGICO`", lugar_mas_sismos.index[4], help=f"Esta metrica nos muestra el lugar mas sismologico para el año {anio}")
                         col5.metric("`SISMOS EN EPICENTRO`", lugar_mas_sismos[4], help=f"Esta metrica nos muestra la cantidad de sismos que ocurrieron en {lugar_mas_sismos.index[4]} para el año {anio}")
                         col6.metric("`PORCENTAJE`",f"{lugar_mas_sismos[4]/q_sismos:.2%}", help=f"Esta metrica nos muestra el porcentaje que representa la cantidad de sismos ocurridos en {lugar_mas_sismos.index[4]} en comparacio con el total" )
-                        #style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
+                        style_metric_cards(background_color="gray", border_color="black", border_left_color="cyan")
                         st.markdown(" ### Graficos")
                         col7, col8 = st.columns(2)
                         with col7:
